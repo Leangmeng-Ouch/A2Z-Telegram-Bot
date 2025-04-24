@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: a2z-telegram-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 7998066661:AAEu33x-TGIk6BTysZ16ca053lY90a-EGu4
