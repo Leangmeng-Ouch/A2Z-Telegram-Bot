@@ -97,7 +97,7 @@ async def handle_contact(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # MAIN APP
 def main():
-    app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+    app = ApplicationBuilder().token("7998066661:AAEu33x-TGIk6BTysZ16ca053lY90a-EGu4").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
